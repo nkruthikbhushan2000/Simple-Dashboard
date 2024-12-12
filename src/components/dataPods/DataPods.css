@@ -1,0 +1,57 @@
+.data-pod{
+    /* min-width: 120px;
+    max-width: 180px;
+    min-height: 120px; */
+    width: 140px;
+    height: 0px;
+    max-width: 140px;
+    display: flex;
+    padding: 0rem;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--dashboard-section-bg);
+    flex: 1 0;
+    /* max-width: fit-content; */
+    border-radius: 2rem;
+    color: var(--text-color);
+    transition: height 0.75s ease-out, padding 0.5s ease-out;
+}
+
+.data-pod-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.data-pod-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    gap: 8px;
+    min-width: 0;
+    white-space: nowrap;
+}
+
+.data-pod-section .title {
+    font-weight: 400;
+    overflow: hidden;
+    font-size: 12px;
+    text-overflow: ellipsis;
+}
+
+.data-pod-section .number{
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.data-pod .main-sec{
+    flex: 2 0;
+}
+
+.visible {
+    height: 120px;
+    padding: 1rem;
+}

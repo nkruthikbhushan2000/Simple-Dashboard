@@ -1,0 +1,41 @@
+.recursive-folder ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recursive-folder li{
+    margin-bottom: 8px;
+}
+
+.li-file:hover{
+    color: rgb(9, 136, 247);
+}
+
+.li-folder{
+    cursor: pointer;
+}
+
+.li-folder li:first-child{
+    margin-top: 8px;
+}
+
+.li-file{
+    padding-left: 20%;
+}
+
+.li-icons{
+    margin: 0 5px;
+}
+
+.li-expand-icons{
+    color: var(--sidebar-expand-icon);
+}
+
+.active-menu-item{
+    display: block;
+    padding: 2px;
+    background-color: var(--menu-active-element);
+    border-radius: 6px;
+}
+

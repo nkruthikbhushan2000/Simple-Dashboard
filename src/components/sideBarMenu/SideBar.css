@@ -1,0 +1,51 @@
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.sidebar-heading{
+    font-weight: 500;
+    color: var(--sidebar-main-head);
+    margin: 0.25rem 0;
+}
+
+.profile-section{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.profile-image{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 99px;
+}
+
+.sidebar-tabs-name{
+    display: flex;
+    gap: 2px;
+}
+
+.tab-name{
+    flex: 1 0;
+    color: var(--sidebar-tab-name-color);
+}
+
+.sidebar-fav-rec li{
+    margin-bottom: 8px;
+}
+
+.sidebar-fav-rec li::marker{
+    color: var(--sidebar-expand-icon);
+}
+
+.sidebar-fav-rec .active-tab{
+    color: var(--sidebar-main-head);
+}
+
+.sidebar-fav-rec .tab-name:hover,.sidebar-tabs li:hover{
+    cursor: pointer;
+    color: rgb(9, 136, 247);
+}

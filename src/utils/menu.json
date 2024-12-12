@@ -1,0 +1,155 @@
+{
+  "Dashboards": {
+    "Folders": [
+      {
+        "id": 1,
+        "Name": "Default",
+        "Type": "file",
+        "icon": "PiChartPieSliceLight",
+        "link": "/Assignment-UI/Dashboards/Default"
+      },
+      {
+        "id": 20,
+        "Name": "Order-List",
+        "Type": "file",
+        "icon": "PiTableBold",
+        "link": "/Assignment-UI/Dashboards/Order-List"
+      },
+      {
+        "id": 2,
+        "Name": "eCommerce",
+        "Type": "folder",
+        "icon": "PiBag",
+        "link": "/Assignment-UI/Dashboards/Ecommerce/Ecommerce1",
+        "Folders": [
+          {
+            "id": 3,
+            "Name": "Dashboard1",
+            "Type": "file",
+            "link": "/Assignment-UI/Dashboards/Ecommerce/Ecommerce1"
+          },
+          {
+            "id": 4,
+            "Name": "Dashboard2",
+            "Type": "file",
+            "link": "/Assignment-UI/Dashboards/Ecommerce/Ecommerce2"
+          },
+          {
+            "id": 5,
+            "Name": "Dashboard3",
+            "Type": "file",
+            "link": "/Assignment-UI/Dashboards/Ecommerce/Ecommerce3"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "Name": "Projects",
+        "Type": "folder",
+        "icon": "PiFolderDuotone",
+        "Folders": [
+          {
+            "id": 7,
+            "Name": "Project1",
+            "Type": "file",
+            "link": "/Assignment-UI/Dashboards/Projects/Project1"
+          },
+          {
+            "id": 8,
+            "Name": "Project2",
+            "Type": "file",
+            "link": "/Assignment-UI/Dashboards/Projects/Project2"
+          },
+          {
+            "id": 9,
+            "Name": "Project3",
+            "Type": "file",
+            "link": "/Assignment-UI/Dashboards/Projects/Project3"
+          }
+        ]
+      }
+    ]
+  },
+  "Pages": {
+    "Folders": [
+      {
+        "id": 10,
+        "Name": "User Profile",
+        "Type": "folder",
+        "icon": "PiUser",
+        "Folders": [
+          {
+            "id": 11,
+            "Name": "Dashboard1",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/User-Profile/Dashboard1"
+          },
+          {
+            "id": 12,
+            "Name": "Dashboard2",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/User-Profile/Dashboard2"
+          },
+          {
+            "id": 13,
+            "Name": "Dashboard3",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/User-Profile/Dashboard3"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "Name": "eCommerce",
+        "Type": "folder",
+        "icon": "PiBag",
+        "Folders": [
+          {
+            "id": 12,
+            "Name": "Dashboard1",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/eCommerce/Dashboard1"
+          },
+          {
+            "id": 13,
+            "Name": "Dashboard2",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/eCommerce/Dashboard2"
+          },
+          {
+            "id": 14,
+            "Name": "Dashboard3",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/eCommerce/Dashboard3"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "Name": "Projects",
+        "Type": "folder",
+        "icon": "PiFolderDuotone",
+        "Folders": [
+          {
+            "id": 16,
+            "Name": "Project1",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/Projects/Project1"
+          },
+          {
+            "id": 17,
+            "Name": "Project2",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/Projects/Project2"
+          },
+          {
+            "id": 18,
+            "Name": "Project3",
+            "Type": "file",
+            "link": "/Assignment-UI/Pages/Projects/Project3"
+          }
+        ]
+      }
+    ]
+  }
+}

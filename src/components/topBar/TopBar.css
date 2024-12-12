@@ -1,0 +1,40 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    color: var(--text-color);
+}
+
+.top-bar-breadcrumb{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.top-bar-breadcrumb .ant-breadcrumb-link,.ant-breadcrumb-separator,a{
+    color: var(--text-color) !important;
+}
+
+.top-bar .ant-input{
+    background-color: var(--topbar-input) !important;
+}
+
+.right-top-bar, .left-top-bar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-bar .top-bar-icon {
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+
+.top-bar .top-bar-icon:hover{
+    transform: scale(1.1);
+}
+
+/* Should not use important  */

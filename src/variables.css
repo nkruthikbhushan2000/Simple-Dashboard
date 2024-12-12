@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #1890ff;
+    --background-color: #ffffff;
+    --text-color: #1C1C1C;
+    --link-color: #177ddc;
+    --button-background: #1890ff;
+    --button-text-color: #ffffff;
+    --sidebar-main-head: #1C1C1C66;
+    --border-color: #1C1C1C1A;
+    --sidebar-expand-icon: #1C1C1C33;
+    --sidebar-tab-name-color: #1C1C1C33;
+    --menu-active-element: #1C1C1C0D;
+    --dashboard-section-bg: #F7F9FB;
+    --topbar-input: #0000000a;
+    --order-list-action-bar: #F7F9FB;
+    --table-hover: #F7F9FB;
+
+  }
+
+  .dark-theme-full-app {
+    --primary-color: #177ddc;
+    --background-color: #141414;
+    --text-color: #ffffff;
+    --link-color: #1a73e8;
+    --button-background: #177ddc;
+    --button-text-color: #ffffff;
+    --sidebar-main-head: #FFFFFF66;
+    --border-color: #FFFFFF1A;
+    --sidebar-expand-icon: #FFFFFF33;
+    --sidebar-tab-name-color: #FFFFFF33;
+    --menu-active-element: #FFFFFF1A;
+    --dashboard-section-bg: #FFFFFF0D;
+    --topbar-input: #ffffff;
+    --order-list-action-bar:  #FFFFFF0D;
+    --table-hover: #FFFFFF0D;
+  }
+
+
+  a{
+    text-decoration: none;
+    color: var(--text-color);
+  }

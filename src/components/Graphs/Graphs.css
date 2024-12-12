@@ -1,0 +1,45 @@
+.world-map-container {
+    max-height: 50%;
+    overflow: auto;
+}
+
+.world-map-details{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px;
+}
+
+.world-map-item{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    font-size: 10px;
+}
+
+.pie-chart-sales-data{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pie-chart-sales-data-item{ 
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.pie-chart-sales-data-item .pie-chart-indicator{
+    border-radius: 999px;
+    max-width: 8px;
+    height: 8px;
+}
+
+.pie-chart-sales-data-item div{
+    flex: 1 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

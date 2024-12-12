@@ -1,0 +1,51 @@
+.notification-bar-item{
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    margin: 0.5rem 0;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.notification-bar-content{
+    display: flex;
+    flex: 3 1;
+    flex-direction: column;
+    min-width: 0;
+    line-height: 1.5;
+}
+
+.notification-bar-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.notification-bar-desc{
+    color: var(--sidebar-main-head);
+    font-size: 12px;
+}
+
+.notification-bar-container{
+    position: relative;
+}
+
+.line-box{
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 25px;
+    background: var(--sidebar-main-head);
+    top: 110%;
+}
+
+.notification-bar-avatar{
+    position: relative;
+}
+
+.notification-bar-container .animate-item{
+    opacity: 1;
+    transform: translateY(0);
+}
