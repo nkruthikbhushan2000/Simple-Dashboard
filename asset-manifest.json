@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Simple-Dashboard/static/css/main.86d84f3a.css",
+    "main.js": "/Simple-Dashboard/static/js/main.ef50390d.js",
+    "static/js/453.4ace35ad.chunk.js": "/Simple-Dashboard/static/js/453.4ace35ad.chunk.js",
+    "index.html": "/Simple-Dashboard/index.html",
+    "main.86d84f3a.css.map": "/Simple-Dashboard/static/css/main.86d84f3a.css.map",
+    "main.ef50390d.js.map": "/Simple-Dashboard/static/js/main.ef50390d.js.map",
+    "453.4ace35ad.chunk.js.map": "/Simple-Dashboard/static/js/453.4ace35ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86d84f3a.css",
+    "static/js/main.ef50390d.js"
+  ]
+}
